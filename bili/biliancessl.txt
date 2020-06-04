@@ -1,3 +1,38 @@
 The SSL for the domains  www.vizinsights.ca  and www.vizinsight.ca  has been created  and the  domains is working fine. Previous the SSL certificate is not created sue to the issue with  the  acme-solver  which  is  created for the domains which  is not paointing  to our end and domains which is pointing to  the remote end. As these domains are  still exist in  our infra the  acme  solver has created and not removed automatically after the  creation  of the  certificate and it exceeds more than  50.So  the  cert-manager is  stuck with creating new certificate of new domains. currently we have removed the  acme-solver for the  domains which is not pointing and  the domains which is poiting  to remote end  and the certificate is now creating for the domains which is pointing to our end. Please find  the domains which is not pointing  to our end and the domains  which is not  have any A  record.
 
++++
+blmdentalcenter.ca         NoDNS
+catherineledentisterie.com         NoDNS
+centredentairebertrandnew.com         NoDNS
+centredentairejflevesqueold.com         NoDNS
+centredentaireleblondnew.com         NoDNS
+famili-dent.ca         174.142.89.68
+functionalabnew.com         NoDNS
+infosignwpbase.com         NoDNS
+infosignwpoptimum.com         NoDNS
+ladouceurdentaire.ca         NoDNS
+ladouceurdentaire.com         NoDNS
+mag-dent.com         216.194.167.3
+tonprofessionnel.ca         NoDNS
+wpbaseinfosign.com         NoDNS
+wpoptimuminfosign.com         NoDNS
+www.blmdentalcenter.ca         NoDNS
+www.catherineledentisterie.com         NoDNS
+www.centredentairebertrandnew.com         NoDNS
+www.centredentairejflevesqueold.com         NoDNS
+www.centredentaireleblondnew.com         NoDNS
+www.cliniquedentairefaubourglacordaire.com         NoDNS
+famili-dent.ca         174.142.89.68
+www.functionalabnew.com         NoDNS
+www.infosignwpbase.com         NoDNS
+www.infosignwpoptimum.com         NoDNS
+www.ladouceurdentaire.ca         NoDNS
+www.ladouceurdentaire.com         NoDNS
+www.mag-dent.com         216.194.167.3
+www.operationpolice.canald.com         NoDNS
+www.tonprofessionnel.ca         NoDNS
+www.wpbaseinfosign.com         NoDNS
+www.wpoptimuminfosign.com         NoDNS
++++
+
   
